@@ -12,7 +12,7 @@
     "prisma:generate": "prisma generate",
     "prisma:migrate": "prisma migrate dev",
     "db:migrate:deploy": "prisma migrate deploy",
-    "start:prod": "npm run db:migrate:deploy && npm run worker",
+    "start:prod": "node scripts/wait-for-db.js && npm run db:migrate:deploy && npm run worker",
     "collect:balletmania": "node scripts/collect-balletmania-employ-list.js",
     "classify:balletmania": "node scripts/classify-balletmania-employ-details.js",
     "collect:esangdance": "node scripts/collect-esangdance-employ-list.js",
