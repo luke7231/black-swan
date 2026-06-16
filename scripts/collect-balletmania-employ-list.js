@@ -28,13 +28,14 @@ async function main() {
   validateDate(targetDate);
 
   const targetShortDate = toShortDate(targetDate);
+  const todayShortDate = toShortDate(getTodayKstDate());
   const collected = [];
   const pages = [];
 
   for (let page = 1; page <= maxPages; page += 1) {
     const url = buildListUrl(page);
     const html = await fetchEucKrHtml(url);
-    const listings = parseListings(html);
+    const listings = parseListings(html, { todayShortDate });
     const dates = [...new Set(listings.map((listing) => listing.postedDate).filter(Boolean))];
 
     pages.push({
@@ -131,7 +132,7 @@ async function fetchEucKrHtml(url) {
   return iconv.decode(Buffer.from(arrayBuffer), "euc-kr");
 }
 
-function parseListings(html) {
+function parseListings(html, options) {
   const $ = cheerio.load(html, { decodeEntities: true });
   const rows = [];
 
@@ -152,7 +153,8 @@ function parseListings(html) {
     const major = extractBetween(metaText, "모집전공 :", "|") || null;
     const career = extractAfter(metaText, "경력 :") || null;
     const closingDate = cleanText(cells.eq(cells.length - 2).text()) || null;
-    const postedDate = cleanText(cells.eq(cells.length - 1).text()) || null;
+    const postedDateCell = cells.eq(cells.length - 1);
+    const postedDate = normalizePostedDateCell($, postedDateCell, options.todayShortDate);
 
     rows.push({
       no,
@@ -169,6 +171,13 @@ function parseListings(html) {
   });
 
   return rows;
+}
+
+function normalizePostedDateCell($, cell, todayShortDate) {
+  const text = cleanText(cell.text());
+  if (text) return text;
+  if (cell.find("img[src*='icon_today']").length > 0) return todayShortDate;
+  return null;
 }
 
 function extractNo(href) {
@@ -210,6 +219,15 @@ function shortDateToIso(shortDate) {
 function toShortDate(date) {
   const [year, month, day] = date.split("-");
   return `${year.slice(2)}.${month}.${day}`;
+}
+
+function getTodayKstDate() {
+  return new Intl.DateTimeFormat("en-CA", {
+    timeZone: "Asia/Seoul",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+  }).format(new Date());
 }
 
 function compareShortDate(left, right) {
