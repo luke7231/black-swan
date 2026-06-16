@@ -33,7 +33,9 @@ async function route(req: http.IncomingMessage, res: http.ServerResponse): Promi
     sendJson(res, 200, {
       ok: true,
       scheduleEnabled: config.scheduleEnabled,
-      scheduleDailyAt: config.scheduleDailyAt,
+      scheduleIntervalMinutes: config.scheduleIntervalMinutes,
+      scheduleSources: config.scheduleSources,
+      defaultLlmMode: config.defaultLlmMode,
     });
     return;
   }
