@@ -80,8 +80,10 @@ export async function runScraper(options: RunScraperOptions): Promise<RunScraper
 }
 
 async function runSourcePipeline(source: SourceName, date: string, llmMode: LlmMode) {
-  const listPath = path.join("data", `${source}-employ-${date}.json`);
-  const classifiedPath = path.join("data", `${source}-employ-${date}-classified.json`);
+  await fs.mkdir(config.scraperWorkDir, { recursive: true });
+
+  const listPath = path.join(config.scraperWorkDir, `${source}-employ-${date}.json`);
+  const classifiedPath = path.join(config.scraperWorkDir, `${source}-employ-${date}-classified.json`);
   const logs: CommandResult[] = [];
 
   logs.push(

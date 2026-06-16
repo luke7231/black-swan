@@ -9,6 +9,7 @@ export const config = {
   scheduleEnabled: process.env.SCRAPER_SCHEDULE_ENABLED === "true",
   scheduleIntervalMinutes: parsePositiveNumber(process.env.SCRAPER_INTERVAL_MINUTES, 5),
   scheduleSources: parseSources(process.env.SCRAPER_SOURCES || "balletmania,esangdance"),
+  scraperWorkDir: process.env.SCRAPER_WORK_DIR || "/tmp/black-swan-scraper",
 };
 
 function parseSources(value: string): SourceName[] {

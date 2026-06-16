@@ -36,6 +36,7 @@ async function route(req: http.IncomingMessage, res: http.ServerResponse): Promi
       scheduleIntervalMinutes: config.scheduleIntervalMinutes,
       scheduleSources: config.scheduleSources,
       defaultLlmMode: config.defaultLlmMode,
+      scraperWorkDir: config.scraperWorkDir,
     });
     return;
   }
