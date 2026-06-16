@@ -1,0 +1,208 @@
+{
+  "source": "balletmania",
+  "sourceUrl": "https://www.balletmania.com/work/employ_list.html",
+  "targetDate": "2026-06-11",
+  "targetShortDate": "26.06.11",
+  "fetchedAt": "2026-06-11T15:19:51.985Z",
+  "total": 15,
+  "pages": [
+    {
+      "page": 1,
+      "url": "https://www.balletmania.com/work/employ_list.html",
+      "parsedCount": 15,
+      "dates": [
+        "26.06.11"
+      ]
+    },
+    {
+      "page": 2,
+      "url": "https://www.balletmania.com/work/employ_list.html?page=2",
+      "parsedCount": 15,
+      "dates": [
+        "26.06.10"
+      ]
+    }
+  ],
+  "listings": [
+    {
+      "no": "86868",
+      "title": "(강남) 성인취미발레 평일 저녁",
+      "company": "리클래시 발레 스튜디오",
+      "companyType": "무용학원",
+      "major": "발레",
+      "career": "경력무관",
+      "closingDate": "채용시",
+      "postedDate": "26.06.11",
+      "postedDateIso": "2026-06-11",
+      "url": "https://www.balletmania.com/work/employ_detail.html?no=86868"
+    },
+    {
+      "no": "86867",
+      "title": "발레포러스 잠실새내점 강사구함 토 2T 11:20~2:00",
+      "company": "발레포러스 잠실새내점",
+      "companyType": "무용학원",
+      "major": "발레",
+      "career": "경력무관",
+      "closingDate": "채용시",
+      "postedDate": "26.06.11",
+      "postedDateIso": "2026-06-11",
+      "url": "https://www.balletmania.com/work/employ_detail.html?no=86867"
+    },
+    {
+      "no": "86866",
+      "title": "신규오픈 성인취미발레학원에서 화목 오전 강사님 구인합니다!",
+      "company": "엘발레스튜디오",
+      "companyType": "무용학원",
+      "major": "발레",
+      "career": "경력무관",
+      "closingDate": "채용시",
+      "postedDate": "26.06.11",
+      "postedDateIso": "2026-06-11",
+      "url": "https://www.balletmania.com/work/employ_detail.html?no=86866"
+    },
+    {
+      "no": "86865",
+      "title": "신규오픈 성인취미발레학원에서 화목 오전 강사님 구인합니다!",
+      "company": "엘발레스튜디오",
+      "companyType": "무용학원",
+      "major": "발레",
+      "career": "경력무관",
+      "closingDate": "채용시",
+      "postedDate": "26.06.11",
+      "postedDateIso": "2026-06-11",
+      "url": "https://www.balletmania.com/work/employ_detail.html?no=86865"
+    },
+    {
+      "no": "86864",
+      "title": "대치동 학여울역 인근 5~7세 댄스, 발레 강사 구합니다.",
+      "company": "라움교육",
+      "companyType": "파견회사",
+      "major": "발레",
+      "career": "경력무관",
+      "closingDate": "채용시",
+      "postedDate": "26.06.11",
+      "postedDateIso": "2026-06-11",
+      "url": "https://www.balletmania.com/work/employ_detail.html?no=86864"
+    },
+    {
+      "no": "86863",
+      "title": "하남시 감일동 성인 발레 화목 저녁 8시 초급반 강사님 구합니다...",
+      "company": "JEE'S 발레 무용학원",
+      "companyType": "무용학원",
+      "major": "발레",
+      "career": "경력무관",
+      "closingDate": "채용시",
+      "postedDate": "26.06.11",
+      "postedDateIso": "2026-06-11",
+      "url": "https://www.balletmania.com/work/employ_detail.html?no=86863"
+    },
+    {
+      "no": "86861",
+      "title": "도곡역 부근)성인발레 오전/저녁반 강사님 모집합니다.",
+      "company": "타워 로열발레 아카데미",
+      "companyType": "무용학원",
+      "major": "발레",
+      "career": "경력무관",
+      "closingDate": "채용시",
+      "postedDate": "26.06.11",
+      "postedDateIso": "2026-06-11",
+      "url": "https://www.balletmania.com/work/employ_detail.html?no=86861"
+    },
+    {
+      "no": "86860",
+      "title": "수원 오전 성인발레, 바레, 발레핏 강사님 모십니다.",
+      "company": "숙명리레브무용학원",
+      "companyType": "무용학원",
+      "major": "발레",
+      "career": "경력무관",
+      "closingDate": "채용시",
+      "postedDate": "26.06.11",
+      "postedDateIso": "2026-06-11",
+      "url": "https://www.balletmania.com/work/employ_detail.html?no=86860"
+    },
+    {
+      "no": "86859",
+      "title": "7월 토요일 10시부터 3Class 가능하신 발레 선생님 모십니다.",
+      "company": "마임발레학원",
+      "companyType": "무용학원",
+      "major": "발레",
+      "career": "경력무관",
+      "closingDate": "채용시",
+      "postedDate": "26.06.11",
+      "postedDateIso": "2026-06-11",
+      "url": "https://www.balletmania.com/work/employ_detail.html?no=86859"
+    },
+    {
+      "no": "86858",
+      "title": "청주 유아 발레 선생님 구합니다 !",
+      "company": "아이사랑교육원",
+      "companyType": "파견회사",
+      "major": "발레",
+      "career": "경력무관",
+      "closingDate": "채용시",
+      "postedDate": "26.06.11",
+      "postedDateIso": "2026-06-11",
+      "url": "https://www.balletmania.com/work/employ_detail.html?no=86858"
+    },
+    {
+      "no": "86857",
+      "title": "[수원광교]필리 필라테스 앤 발레 발레강사모집(오전/오후 클래...",
+      "company": "필리필라테스 앤 발레",
+      "companyType": "무용학원",
+      "major": "발레",
+      "career": "경력무관",
+      "closingDate": "채용시",
+      "postedDate": "26.06.11",
+      "postedDateIso": "2026-06-11",
+      "url": "https://www.balletmania.com/work/employ_detail.html?no=86857"
+    },
+    {
+      "no": "86856",
+      "title": "청라 유아 발레수업",
+      "company": "아이사랑교육원",
+      "companyType": "파견회사",
+      "major": "발레",
+      "career": "경력무관",
+      "closingDate": "채용시",
+      "postedDate": "26.06.11",
+      "postedDateIso": "2026-06-11",
+      "url": "https://www.balletmania.com/work/employ_detail.html?no=86856"
+    },
+    {
+      "no": "86855",
+      "title": "월수 혹은 월금 발레선생님 구인합니다",
+      "company": "이지예무용학원",
+      "companyType": "무용학원",
+      "major": "발레",
+      "career": "경력무관",
+      "closingDate": "상시채용",
+      "postedDate": "26.06.11",
+      "postedDateIso": "2026-06-11",
+      "url": "https://www.balletmania.com/work/employ_detail.html?no=86855"
+    },
+    {
+      "no": "86854",
+      "title": "이천지역 유아발레 강사님을 찾습니다.",
+      "company": "앨리스 발레",
+      "companyType": "파견회사",
+      "major": "발레",
+      "career": "경력무관",
+      "closingDate": "채용시",
+      "postedDate": "26.06.11",
+      "postedDateIso": "2026-06-11",
+      "url": "https://www.balletmania.com/work/employ_detail.html?no=86854"
+    },
+    {
+      "no": "86853",
+      "title": "경북 구미 월요일 유아발레 강사님을 찾습니다~!!",
+      "company": "앨리스 발레",
+      "companyType": "파견회사",
+      "major": "발레",
+      "career": "경력무관",
+      "closingDate": "채용시",
+      "postedDate": "26.06.11",
+      "postedDateIso": "2026-06-11",
+      "url": "https://www.balletmania.com/work/employ_detail.html?no=86853"
+    }
+  ]
+}

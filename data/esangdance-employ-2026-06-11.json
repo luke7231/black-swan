@@ -1,0 +1,260 @@
+{
+  "source": "esangdance",
+  "sourceUrl": "https://www.esangdance.net/M01?sca=%EB%B0%9C%EB%A0%88",
+  "category": "발레",
+  "targetDate": "2026-06-11",
+  "targetShortDate": "06-11",
+  "fetchedAt": "2026-06-12T12:16:49.421Z",
+  "total": 17,
+  "pages": [
+    {
+      "page": 1,
+      "url": "https://www.esangdance.net/M01?sca=%EB%B0%9C%EB%A0%88",
+      "parsedCount": 12,
+      "dates": [
+        "2026-06-12"
+      ]
+    },
+    {
+      "page": 2,
+      "url": "https://www.esangdance.net/M01?sca=%EB%B0%9C%EB%A0%88&page=2",
+      "parsedCount": 12,
+      "dates": [
+        "2026-06-12",
+        "2026-06-11"
+      ]
+    },
+    {
+      "page": 3,
+      "url": "https://www.esangdance.net/M01?sca=%EB%B0%9C%EB%A0%88&page=3",
+      "parsedCount": 12,
+      "dates": [
+        "2026-06-11",
+        "2026-06-10"
+      ]
+    }
+  ],
+  "listings": [
+    {
+      "postId": "16191",
+      "boardNo": "5439",
+      "category": "발레",
+      "title": "급구 수원 내일 6/12 (금) 유아발레 대강구해요",
+      "writer": "Wngmlwn",
+      "viewCount": 40,
+      "dateText": "06-11",
+      "postedDate": "2026-06-11",
+      "status": "진행중",
+      "listPage": 2,
+      "url": "https://www.esangdance.net/M01/16191?sca=%EB%B0%9C%EB%A0%88&page=2"
+    },
+    {
+      "postId": "16190",
+      "boardNo": "5438",
+      "category": "발레",
+      "title": "(강남) 성인취미발레 평일 저녁",
+      "writer": "리클래시",
+      "viewCount": 95,
+      "dateText": "06-11",
+      "postedDate": "2026-06-11",
+      "status": "진행중",
+      "listPage": 2,
+      "url": "https://www.esangdance.net/M01/16190?sca=%EB%B0%9C%EB%A0%88&page=2"
+    },
+    {
+      "postId": "16189",
+      "boardNo": "5437",
+      "category": "발레",
+      "title": "6월19일(금) 초등, 유아발레 대강 선생님 구합니다~",
+      "writer": "플로앤발레",
+      "viewCount": 83,
+      "dateText": "06-11",
+      "postedDate": "2026-06-11",
+      "status": "진행중",
+      "listPage": 2,
+      "url": "https://www.esangdance.net/M01/16189?sca=%EB%B0%9C%EB%A0%88&page=2"
+    },
+    {
+      "postId": "16188",
+      "boardNo": "5436",
+      "category": "발레",
+      "title": "6/30 탄현역 바레•발레핏 대강",
+      "writer": "모던셸",
+      "viewCount": 20,
+      "dateText": "06-11",
+      "postedDate": "2026-06-11",
+      "status": "진행중",
+      "listPage": 2,
+      "url": "https://www.esangdance.net/M01/16188?sca=%EB%B0%9C%EB%A0%88&page=2"
+    },
+    {
+      "postId": "16187",
+      "boardNo": "5435",
+      "category": "발레",
+      "title": "신규오픈 성인취미발레학원에서 화목 오전 강사님 구인합니다!",
+      "writer": "엘발레스튜디오",
+      "viewCount": 66,
+      "dateText": "06-11",
+      "postedDate": "2026-06-11",
+      "status": "진행중",
+      "listPage": 2,
+      "url": "https://www.esangdance.net/M01/16187?sca=%EB%B0%9C%EB%A0%88&page=2"
+    },
+    {
+      "postId": "16186",
+      "boardNo": "5434",
+      "category": "발레",
+      "title": "신내역 부근 유아발레 강사님 모십니다.",
+      "writer": "Min12",
+      "viewCount": 32,
+      "dateText": "06-11",
+      "postedDate": "2026-06-11",
+      "status": "진행중",
+      "listPage": 2,
+      "url": "https://www.esangdance.net/M01/16186?sca=%EB%B0%9C%EB%A0%88&page=2"
+    },
+    {
+      "postId": "16185",
+      "boardNo": "5433",
+      "category": "발레",
+      "title": "금.토 키즈발레 강사 채용공고",
+      "writer": "발레포러스",
+      "viewCount": 42,
+      "dateText": "06-11",
+      "postedDate": "2026-06-11",
+      "status": "진행중",
+      "listPage": 2,
+      "url": "https://www.esangdance.net/M01/16185?sca=%EB%B0%9C%EB%A0%88&page=2"
+    },
+    {
+      "postId": "16183",
+      "boardNo": "5432",
+      "category": "발레",
+      "title": "서울 동작구 유아발레 강사님 모셔요~",
+      "writer": "채으",
+      "viewCount": 89,
+      "dateText": "06-11",
+      "postedDate": "2026-06-11",
+      "status": "진행중",
+      "listPage": 2,
+      "url": "https://www.esangdance.net/M01/16183?sca=%EB%B0%9C%EB%A0%88&page=2"
+    },
+    {
+      "postId": "16182",
+      "boardNo": "5431",
+      "category": "발레",
+      "title": "도곡역) 오전/저녁반 성인발레 강사님 모집",
+      "writer": "lee00",
+      "viewCount": 63,
+      "dateText": "06-11",
+      "postedDate": "2026-06-11",
+      "status": "진행중",
+      "listPage": 2,
+      "url": "https://www.esangdance.net/M01/16182?sca=%EB%B0%9C%EB%A0%88&page=2"
+    },
+    {
+      "postId": "16181",
+      "boardNo": "5430",
+      "category": "발레",
+      "title": "6/17 상동 유아발레 대강",
+      "writer": "슈꾸딩",
+      "viewCount": 64,
+      "dateText": "06-11",
+      "postedDate": "2026-06-11",
+      "status": "진행중",
+      "listPage": 2,
+      "url": "https://www.esangdance.net/M01/16181?sca=%EB%B0%9C%EB%A0%88&page=2"
+    },
+    {
+      "postId": "16180",
+      "boardNo": "5429",
+      "category": "발레",
+      "title": "부산 해운대 3주 방학특강 발레 부전공",
+      "writer": "골든캣츠",
+      "viewCount": 45,
+      "dateText": "06-11",
+      "postedDate": "2026-06-11",
+      "status": "진행중",
+      "listPage": 2,
+      "url": "https://www.esangdance.net/M01/16180?sca=%EB%B0%9C%EB%A0%88&page=2"
+    },
+    {
+      "postId": "16179",
+      "boardNo": "5428",
+      "category": "발레",
+      "title": "경산 강사님 구인합니다",
+      "writer": "예Z",
+      "viewCount": 23,
+      "dateText": "06-11",
+      "postedDate": "2026-06-11",
+      "status": "진행중",
+      "listPage": 3,
+      "url": "https://www.esangdance.net/M01/16179?sca=%EB%B0%9C%EB%A0%88&page=3"
+    },
+    {
+      "postId": "16178",
+      "boardNo": "5427",
+      "category": "발레",
+      "title": "부산 발레강사님을 모십니다(현대무용전공자도 가능)",
+      "writer": "밀크사랑",
+      "viewCount": 30,
+      "dateText": "06-11",
+      "postedDate": "2026-06-11",
+      "status": "진행중",
+      "listPage": 3,
+      "url": "https://www.esangdance.net/M01/16178?sca=%EB%B0%9C%EB%A0%88&page=3"
+    },
+    {
+      "postId": "16177",
+      "boardNo": "5426",
+      "category": "발레",
+      "title": "시흥 르베무용학원에서 발레강사를 구합니다.",
+      "writer": "행복한댄서",
+      "viewCount": 46,
+      "dateText": "06-11",
+      "postedDate": "2026-06-11",
+      "status": "진행중",
+      "listPage": 3,
+      "url": "https://www.esangdance.net/M01/16177?sca=%EB%B0%9C%EB%A0%88&page=3"
+    },
+    {
+      "postId": "16175",
+      "boardNo": "5425",
+      "category": "발레",
+      "title": "6/12(금) 8시 성인기초 급구",
+      "writer": "햅니",
+      "viewCount": 76,
+      "dateText": "06-11",
+      "postedDate": "2026-06-11",
+      "status": "진행중",
+      "listPage": 3,
+      "url": "https://www.esangdance.net/M01/16175?sca=%EB%B0%9C%EB%A0%88&page=3"
+    },
+    {
+      "postId": "16173",
+      "boardNo": "5424",
+      "category": "발레",
+      "title": "분당 수,금 유아 초등 강사님 구합니다",
+      "writer": "복실복실이",
+      "viewCount": 45,
+      "dateText": "06-11",
+      "postedDate": "2026-06-11",
+      "status": "진행중",
+      "listPage": 3,
+      "url": "https://www.esangdance.net/M01/16173?sca=%EB%B0%9C%EB%A0%88&page=3"
+    },
+    {
+      "postId": "16171",
+      "boardNo": "5423",
+      "category": "발레",
+      "title": "수원 광교중앙역 근방 화/목 성인발레 강사 구인",
+      "writer": "연두핑",
+      "viewCount": 42,
+      "dateText": "06-11",
+      "postedDate": "2026-06-11",
+      "status": "진행중",
+      "listPage": 3,
+      "url": "https://www.esangdance.net/M01/16171?sca=%EB%B0%9C%EB%A0%88&page=3"
+    }
+  ]
+}

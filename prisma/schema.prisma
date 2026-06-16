@@ -1,0 +1,110 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum SourceName {
+  balletmania
+  esangdance
+}
+
+enum ScraperRunStatus {
+  running
+  success
+  failed
+}
+
+model SourcePost {
+  id                 String          @id @default(cuid())
+  source             SourceName
+  sourcePostId       String
+  sourceUrl          String
+  title              String
+  postedAt           DateTime?
+  rawJson            Json
+  classificationJson Json?
+  contentHash        String?
+  fetchedAt          DateTime        @default(now())
+  createdAt          DateTime        @default(now())
+  updatedAt          DateTime        @updatedAt
+  jobPostSources     JobPostSource[]
+
+  @@unique([source, sourcePostId])
+  @@index([source, postedAt])
+  @@index([contentHash])
+}
+
+model JobPost {
+  id                String          @id @default(cuid())
+  title             String
+  description       String?
+  sourcePrimary     SourceName
+  status            String?
+  postedAt          DateTime?
+  jobType           String?
+  isBallet          Boolean         @default(false)
+  balletConfidence  String?
+  audienceTypes     Json
+  subjectTypes      Json
+  locationText      String?
+  sido              String?
+  sigungu           String?
+  dongOrStation     String?
+  days              Json
+  timeSlots         Json
+  times             Json
+  classCount        Int?
+  durationMinutes   Int?
+  payType           String?
+  payMinManwon      Float?
+  payMaxManwon      Float?
+  payText           String?
+  payNegotiable     Boolean         @default(false)
+  contactMethods    Json
+  contactEmails     Json
+  contactPhones     Json
+  requirementsJson  Json
+  confidenceJson    Json?
+  normalizedJson    Json
+  contentHash       String?
+  createdAt         DateTime        @default(now())
+  updatedAt         DateTime        @updatedAt
+  jobPostSources    JobPostSource[]
+
+  @@index([postedAt])
+  @@index([sourcePrimary])
+  @@index([contentHash])
+}
+
+model JobPostSource {
+  id           String     @id @default(cuid())
+  jobPostId    String
+  sourcePostId String
+  source       SourceName
+  sourceUrl    String
+  confidence   String?
+  createdAt    DateTime   @default(now())
+  jobPost      JobPost    @relation(fields: [jobPostId], references: [id], onDelete: Cascade)
+  sourcePost   SourcePost @relation(fields: [sourcePostId], references: [id], onDelete: Cascade)
+
+  @@unique([jobPostId, sourcePostId])
+  @@index([source, sourceUrl])
+}
+
+model ScraperRun {
+  id           String           @id @default(cuid())
+  source       SourceName?
+  targetDate   String
+  llmMode      String
+  status       ScraperRunStatus @default(running)
+  startedAt    DateTime         @default(now())
+  finishedAt   DateTime?
+  collected    Int              @default(0)
+  classified   Int              @default(0)
+  imported     Int              @default(0)
+  errorMessage String?
+  logs         Json?
+}

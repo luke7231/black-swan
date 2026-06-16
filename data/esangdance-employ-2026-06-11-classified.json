@@ -1,0 +1,2123 @@
+{
+  "source": "esangdance",
+  "input": "data/esangdance-employ-2026-06-11.json",
+  "outputSchema": "CRAWLING_CLASSIFICATION_RULES.md",
+  "total": 17,
+  "generatedAt": "2026-06-12T12:29:07.771Z",
+  "listings": [
+    {
+      "source": "esangdance",
+      "sourcePostId": "16191",
+      "url": "https://www.esangdance.net/M01/16191?sca=%EB%B0%9C%EB%A0%88&page=2",
+      "collectedAt": "2026-06-12T12:27:40.392Z",
+      "raw": {
+        "title": "급구 수원 내일 6/12 (금) 유아발레 대강구해요",
+        "company": "Wngmlwn",
+        "companyType": null,
+        "postedDate": "2026-06-11",
+        "closingDateText": null,
+        "summaryMajorText": "발레",
+        "summaryRegionText": "수원 망포역 5분거리",
+        "summaryPayText": "문자주시면 수업 내용과 페이 말씀드릴게요. 수업은 매우 간단해서 쉬워요!!",
+        "detailText": "학원명(지역) ▶ 수원 망포역 5분거리\n수업내용 및 시간 ▶ 3시10분 - 4시, 4시-4시50분\n각 50분 수업 두타임\n연락처 ▶ 010-3379-8523\n수업료 등 추가내용 ▶ 문자주시면 수업 내용과 페이 말씀드릴게요.\n수업은 매우 간단해서 쉬워요!!",
+        "detailImages": [],
+        "category": "발레",
+        "writer": "Wngmlwn",
+        "status": "진행중",
+        "viewCount": 40,
+        "listPage": 2
+      },
+      "classification": {
+        "isBallet": true,
+        "balletConfidence": "high",
+        "dropReason": null,
+        "jobType": "substitute",
+        "audiences": [
+          "toddler"
+        ],
+        "subjects": [
+          "ballet"
+        ],
+        "locations": [
+          {
+            "sido": "수원",
+            "sigungu": "망포역 5분거리",
+            "dongOrStation": "지역",
+            "raw": "수원 망포역 5분거리"
+          }
+        ],
+        "schedule": {
+          "days": [
+            "금"
+          ],
+          "dayRaw": "금",
+          "timeSlots": [
+            "morning"
+          ],
+          "times": [
+            {
+              "start": "03:10",
+              "end": "04:00",
+              "raw": "3시10분 - 4시"
+            },
+            {
+              "start": "04:00",
+              "end": "04:50",
+              "raw": "4시-4시50"
+            }
+          ],
+          "classCount": null,
+          "durationMinutes": 5,
+          "startDate": null
+        },
+        "pay": {
+          "type": "unknown",
+          "minManwon": null,
+          "maxManwon": null,
+          "amountText": "문자주시면 수업 내용과 페이 말씀드릴게요. 수업은 매우 간단해서 쉬워요!!",
+          "isNegotiable": false,
+          "deductions": [],
+          "classCountBasis": null
+        },
+        "requirements": {
+          "majorRequired": null,
+          "experienceRequired": null,
+          "certifications": [],
+          "preferred": []
+        },
+        "contact": {
+          "emails": [],
+          "phones": [
+            "010-3379-8523"
+          ],
+          "applyMethods": [
+            "sms"
+          ]
+        },
+        "dedupe": {
+          "entityKey": "Wngmlwn|수원|망포역 5분거리",
+          "sameCompanyCandidates": []
+        },
+        "evidence": {
+          "audiences": [
+            "유아"
+          ],
+          "subjects": [
+            "발레"
+          ],
+          "days": [
+            "수",
+            "금",
+            "일"
+          ],
+          "pay": [
+            "문자주시면 수업 내용과 페이 말씀드릴게요. 수업은 매우 간단해서 쉬워요!!",
+            "페이"
+          ]
+        },
+        "llm": {
+          "used": false,
+          "reason": [
+            "pay_unknown"
+          ],
+          "model": null,
+          "appliedFields": [],
+          "suggestion": null,
+          "notes": []
+        },
+        "detailFetch": {
+          "ok": true,
+          "error": null
+        }
+      }
+    },
+    {
+      "source": "esangdance",
+      "sourcePostId": "16190",
+      "url": "https://www.esangdance.net/M01/16190?sca=%EB%B0%9C%EB%A0%88&page=2",
+      "collectedAt": "2026-06-12T12:27:49.861Z",
+      "raw": {
+        "title": "(강남) 성인취미발레 평일 저녁",
+        "company": "리클래시",
+        "companyType": null,
+        "postedDate": "2026-06-11",
+        "closingDateText": null,
+        "summaryMajorText": "발레",
+        "summaryRegionText": "강남 개포동역 리클래시 발레 스튜디오 수업내용 및 시간 ▶ 금요일 저녁 성인반+이외 가능한 시간 금 19:30~20:30 60분 기초 + 추후 전후 시간대에 개인레슨이 생길수도 있습니다. + 다른 시간대 티칭도 가능하시면 별도 기재부탁드립니다. 감사합니다.",
+        "summaryPayText": "시급 협의가능(이력서 지원시, 희망시급 기재 바랍니다) 편안한 분위기에서 오래 같이 일하실 성실한 선생님 지원부탁드립니다. 감사합니다^^",
+        "detailText": "학원명(지역) ▶ 강남 개포동역 리클래시 발레 스튜디오 수업내용 및 시간 ▶ 금요일 저녁 성인반+이외 가능한 시간 금 19:30~20:30 60분 기초 + 추후 전후 시간대에 개인레슨이 생길수도 있습니다. + 다른 시간대 티칭도 가능하시면 별도 기재부탁드립니다. 감사합니다. \n연락처 ▶ '이력서 메일 송부 후 문자연락바랍니다.; 필수사항 1. 성함/연락처/주소/사진 등 기본정보 2. 학력 및 경력(발레전공 필수) 3. 희망 시급 기재 leeclassy. ballet@gmail.com 으로 이력서 보낸 후 010.7508.7917으로 문자남겨주시길 바랍니다. 수업료 등 추가내용 ▶ 시급 협의가능(이력서 지원시, 희망시급 기재 바랍니다) \n편안한 분위기에서 오래 같이 일하실 성실한 선생님 지원부탁드립니다. 감사합니다^^",
+        "detailImages": [],
+        "category": "발레",
+        "writer": "리클래시",
+        "status": "진행중",
+        "viewCount": 95,
+        "listPage": 2
+      },
+      "classification": {
+        "isBallet": true,
+        "balletConfidence": "high",
+        "dropReason": null,
+        "jobType": "regular",
+        "audiences": [
+          "adult"
+        ],
+        "subjects": [
+          "ballet"
+        ],
+        "locations": [
+          {
+            "sido": "강남",
+            "sigungu": "개포동역 리클래시 발레 스튜디오 수업내용 및 시간 ▶ 금요일 저녁 성인반+이외 가능한 시간 금 19:30~20:30 60분 기초 + 추후 전후 시간대에 개인레슨이 생길수도 있습니다. + 다른 시간대 티칭도 가능하시면 별도 기재부탁드립니다. 감사합니다.",
+            "dongOrStation": "지역",
+            "raw": "강남 개포동역 리클래시 발레 스튜디오 수업내용 및 시간 ▶ 금요일 저녁 성인반+이외 가능한 시간 금 19:30~20:30 60분 기초 + 추후 전후 시간대에 개인레슨이 생길수도 있습니다. + 다른 시간대 티칭도 가능하시면 별도 기재부탁드립니다. 감사합니다."
+          }
+        ],
+        "schedule": {
+          "days": [
+            "금"
+          ],
+          "dayRaw": "금",
+          "timeSlots": [
+            "evening",
+            "negotiable"
+          ],
+          "times": [
+            {
+              "start": "19:30",
+              "end": "20:30",
+              "raw": "19:30~20:30"
+            },
+            {
+              "start": "19:30",
+              "end": "20:30",
+              "raw": "19:30~20:30"
+            }
+          ],
+          "classCount": null,
+          "durationMinutes": 60,
+          "startDate": null
+        },
+        "pay": {
+          "type": "negotiable",
+          "minManwon": null,
+          "maxManwon": null,
+          "amountText": "시급 협의가능(이력서 지원시, 희망시급 기재 바랍니다) 편안한 분위기에서 오래 같이 일하실 성실한 선생님 지원부탁드립니다. 감사합니다^^",
+          "isNegotiable": true,
+          "deductions": [],
+          "classCountBasis": null
+        },
+        "requirements": {
+          "majorRequired": true,
+          "experienceRequired": null,
+          "certifications": [],
+          "preferred": []
+        },
+        "contact": {
+          "emails": [
+            "ballet@gmail.com"
+          ],
+          "phones": [
+            "010-7508-7917"
+          ],
+          "applyMethods": [
+            "email",
+            "sms"
+          ]
+        },
+        "dedupe": {
+          "entityKey": "리클래시|강남|개포동역 리클래시 발레 스튜디오 수업내용 및 시간 ▶ 금요일 저녁 성인반+이외 가능한 시간 금 19:30~20:30 60분 기초 + 추후 전후 시간대에 개인레슨이 생길수도 있습니다. + 다른 시간대 티칭도 가능하시면 별도 기재부탁드립니다. 감사합니다.",
+          "sameCompanyCandidates": []
+        },
+        "evidence": {
+          "audiences": [
+            "성인"
+          ],
+          "subjects": [
+            "발레"
+          ],
+          "days": [
+            "수",
+            "금",
+            "일"
+          ],
+          "pay": [
+            "시급 협의가능(이력서 지원시, 희망시급 기재 바랍니다) 편안한 분위기에서 오래 같이 일하실 성실한 선생님 지원부탁드립니다. 감사합니다^^",
+            "시급",
+            "협의"
+          ]
+        },
+        "llm": {
+          "used": false,
+          "reason": [],
+          "model": null,
+          "appliedFields": [],
+          "suggestion": null,
+          "notes": []
+        },
+        "detailFetch": {
+          "ok": true,
+          "error": null
+        }
+      }
+    },
+    {
+      "source": "esangdance",
+      "sourcePostId": "16189",
+      "url": "https://www.esangdance.net/M01/16189?sca=%EB%B0%9C%EB%A0%88&page=2",
+      "collectedAt": "2026-06-12T12:28:00.331Z",
+      "raw": {
+        "title": "6월19일(금) 초등, 유아발레 대강 선생님 구합니다~",
+        "company": "플로앤발레",
+        "companyType": null,
+        "postedDate": "2026-06-11",
+        "closingDateText": null,
+        "summaryMajorText": "발레",
+        "summaryRegionText": "인천 검단신도시(인천1호선 지하철역 도보 1분)",
+        "summaryPayText": "페이3 (총9만원) 아이들 예뻐하시고 지각펑크 절대 없으신 분 연락 주세요^^",
+        "detailText": "학원명(지역) ▶ 인천 검단신도시(인천1호선 지하철역 도보 1분)\n수업내용 및 시간 ▶ 2시50분~3시40분 초등\n4시~4시50분 유아 \n5시~5시50분 유아\n연락처 ▶ 010.2606.2678\n수업료 등 추가내용 ▶페이3 (총9만원)\n아이들 예뻐하시고 지각펑크 절대 없으신 분 연락 주세요^^",
+        "detailImages": [],
+        "category": "발레",
+        "writer": "플로앤발레",
+        "status": "진행중",
+        "viewCount": 83,
+        "listPage": 2
+      },
+      "classification": {
+        "isBallet": true,
+        "balletConfidence": "high",
+        "dropReason": null,
+        "jobType": "substitute",
+        "audiences": [
+          "toddler",
+          "elementary"
+        ],
+        "subjects": [
+          "ballet"
+        ],
+        "locations": [
+          {
+            "sido": "인천",
+            "sigungu": "검단신도시(인천1호선 지하철역 도보 1분)",
+            "dongOrStation": "지역",
+            "raw": "인천 검단신도시(인천1호선 지하철역 도보 1분)"
+          }
+        ],
+        "schedule": {
+          "days": [
+            "금"
+          ],
+          "dayRaw": "금",
+          "timeSlots": [
+            "morning"
+          ],
+          "times": [
+            {
+              "start": "02:50",
+              "end": "03:40",
+              "raw": "2시50분~3시40"
+            },
+            {
+              "start": "04:00",
+              "end": "04:50",
+              "raw": "4시~4시50"
+            },
+            {
+              "start": "05:00",
+              "end": "05:50",
+              "raw": "5시~5시50"
+            }
+          ],
+          "classCount": null,
+          "durationMinutes": 1,
+          "startDate": null
+        },
+        "pay": {
+          "type": "hourly",
+          "minManwon": 9,
+          "maxManwon": 9,
+          "amountText": "페이3 (총9만원) 아이들 예뻐하시고 지각펑크 절대 없으신 분 연락 주세요^^",
+          "isNegotiable": false,
+          "deductions": [],
+          "classCountBasis": null
+        },
+        "requirements": {
+          "majorRequired": null,
+          "experienceRequired": null,
+          "certifications": [],
+          "preferred": []
+        },
+        "contact": {
+          "emails": [],
+          "phones": [
+            "010-2606-2678"
+          ],
+          "applyMethods": [
+            "unknown"
+          ]
+        },
+        "dedupe": {
+          "entityKey": "플로앤발레|인천|검단신도시(인천1호선 지하철역 도보 1분)",
+          "sameCompanyCandidates": []
+        },
+        "evidence": {
+          "audiences": [
+            "유아",
+            "초등"
+          ],
+          "subjects": [
+            "발레"
+          ],
+          "days": [
+            "월",
+            "수",
+            "금",
+            "일"
+          ],
+          "pay": [
+            "페이3 (총9만원) 아이들 예뻐하시고 지각펑크 절대 없으신 분 연락 주세요^^",
+            "페이",
+            "만원"
+          ]
+        },
+        "llm": {
+          "used": false,
+          "reason": [],
+          "model": null,
+          "appliedFields": [],
+          "suggestion": null,
+          "notes": []
+        },
+        "detailFetch": {
+          "ok": true,
+          "error": null
+        }
+      }
+    },
+    {
+      "source": "esangdance",
+      "sourcePostId": "16188",
+      "url": "https://www.esangdance.net/M01/16188?sca=%EB%B0%9C%EB%A0%88&page=2",
+      "collectedAt": "2026-06-12T12:28:06.802Z",
+      "raw": {
+        "title": "6/30 탄현역 바레•발레핏 대강",
+        "company": "모던셸",
+        "companyType": null,
+        "postedDate": "2026-06-11",
+        "closingDateText": null,
+        "summaryMajorText": "발레",
+        "summaryRegionText": null,
+        "summaryPayText": null,
+        "detailText": "6/30일\n•탄현역 부근 ( 도보 5분 )\n19:20 - 20:10 성인바레\n20:20 - 21:10 성인발레핏\n*2타임 총 6만원\n대강 수업 가능하신 강사님 모십니다 :)\n01087035779\n간단한 이력서와 함께 연락주세요",
+        "detailImages": [],
+        "category": "발레",
+        "writer": "모던셸",
+        "status": "진행중",
+        "viewCount": 20,
+        "listPage": 2
+      },
+      "classification": {
+        "isBallet": true,
+        "balletConfidence": "high",
+        "dropReason": null,
+        "jobType": "substitute",
+        "audiences": [
+          "adult"
+        ],
+        "subjects": [
+          "ballet",
+          "barre",
+          "ballet_fit"
+        ],
+        "locations": [
+          {
+            "sido": null,
+            "sigungu": null,
+            "dongOrStation": "탄현역",
+            "raw": null
+          }
+        ],
+        "schedule": {
+          "days": [],
+          "dayRaw": null,
+          "timeSlots": [
+            "evening"
+          ],
+          "times": [
+            {
+              "start": "19:20",
+              "end": "20:10",
+              "raw": "19:20 - 20:10"
+            },
+            {
+              "start": "20:20",
+              "end": "21:10",
+              "raw": "20:20 - 21:10"
+            }
+          ],
+          "classCount": 2,
+          "durationMinutes": 5,
+          "startDate": null
+        },
+        "pay": {
+          "type": "per_class",
+          "minManwon": 6,
+          "maxManwon": 6,
+          "amountText": "*2타임 총 6만원",
+          "isNegotiable": false,
+          "deductions": [],
+          "classCountBasis": null
+        },
+        "requirements": {
+          "majorRequired": null,
+          "experienceRequired": null,
+          "certifications": [],
+          "preferred": []
+        },
+        "contact": {
+          "emails": [],
+          "phones": [
+            "010-8703-5779"
+          ],
+          "applyMethods": [
+            "unknown"
+          ]
+        },
+        "dedupe": {
+          "entityKey": "모던셸",
+          "sameCompanyCandidates": []
+        },
+        "evidence": {
+          "audiences": [
+            "성인"
+          ],
+          "subjects": [
+            "발레",
+            "바레",
+            "발레핏"
+          ],
+          "days": [
+            "수",
+            "일"
+          ],
+          "pay": [
+            "*2타임 총 6만원",
+            "만원"
+          ]
+        },
+        "llm": {
+          "used": false,
+          "reason": [],
+          "model": null,
+          "appliedFields": [],
+          "suggestion": null,
+          "notes": []
+        },
+        "detailFetch": {
+          "ok": true,
+          "error": null
+        }
+      }
+    },
+    {
+      "source": "esangdance",
+      "sourcePostId": "16187",
+      "url": "https://www.esangdance.net/M01/16187?sca=%EB%B0%9C%EB%A0%88&page=2",
+      "collectedAt": "2026-06-12T12:28:14.586Z",
+      "raw": {
+        "title": "신규오픈 성인취미발레학원에서 화목 오전 강사님 구인합니다!",
+        "company": "엘발레스튜디오",
+        "companyType": null,
+        "postedDate": "2026-06-11",
+        "closingDateText": null,
+        "summaryMajorText": "발레",
+        "summaryRegionText": null,
+        "summaryPayText": null,
+        "detailText": "신규 오픈한 발레스튜디오에서 \n회원님들과 편안하게 소통하며 초보자 중심 취미발레 수업을 이끌어주실 \n발레전공 강사님을 구인합니다. \n이메일 : km3934710@gmail.com \n전화번호 : 010-8737-3154 \n경기 수원시 영통구 영통로153번길 6 402호 (태장프라자) \n망포역 도보5분입니다! \n■ 모집대상 성인 취미반 티칭경험 있으신분 \n(경력이 많지 않아도 지원 가능합니다) \n성인 초보, 입문회원 위주 수업으로 기본기 중심의 친절하고 꼼꼼한 지도가 가능하신 분 \n수업 분위기와 스튜디오에 적응하시며 안정적으로 오래 함께하실 분 환영합니다 :D \n■ 수업 스케줄 수업시간 : 60분 \n선발 파트 : 화,목 오전 (2타임) \n(가능하신 요일과 시간대 모두 이메일에 기재 바랍니다) \n※ 수업 시작날짜 : 6월 22일~ \n■ 수업료 회당 3.0 ~ 4.0 (수업 만족도 및 근속에 따라 조정) \n■ 지원 방법 이력서를 이메일로 보내주시고, \n문자로 성함 + 지원 요일/시간대 남겨주시면 확인 후 연락드립니다.",
+        "detailImages": [],
+        "category": "발레",
+        "writer": "엘발레스튜디오",
+        "status": "진행중",
+        "viewCount": 66,
+        "listPage": 2
+      },
+      "classification": {
+        "isBallet": true,
+        "balletConfidence": "high",
+        "dropReason": null,
+        "jobType": "regular",
+        "audiences": [
+          "adult"
+        ],
+        "subjects": [
+          "ballet"
+        ],
+        "locations": [
+          {
+            "sido": null,
+            "sigungu": null,
+            "dongOrStation": "망포역",
+            "raw": null
+          }
+        ],
+        "schedule": {
+          "days": [
+            "화",
+            "목"
+          ],
+          "dayRaw": "화,목",
+          "timeSlots": [
+            "morning"
+          ],
+          "times": [],
+          "classCount": 2,
+          "durationMinutes": 5,
+          "startDate": null
+        },
+        "pay": {
+          "type": "unknown",
+          "minManwon": null,
+          "maxManwon": null,
+          "amountText": "■ 수업료 회당 3",
+          "isNegotiable": true,
+          "deductions": [],
+          "classCountBasis": null
+        },
+        "requirements": {
+          "majorRequired": true,
+          "experienceRequired": null,
+          "certifications": [],
+          "preferred": [
+            "티칭 경험"
+          ]
+        },
+        "contact": {
+          "emails": [
+            "km3934710@gmail.com"
+          ],
+          "phones": [
+            "010-8737-3154"
+          ],
+          "applyMethods": [
+            "email",
+            "sms",
+            "phone"
+          ]
+        },
+        "dedupe": {
+          "entityKey": "엘발레스튜디오",
+          "sameCompanyCandidates": []
+        },
+        "evidence": {
+          "audiences": [
+            "성인"
+          ],
+          "subjects": [
+            "발레"
+          ],
+          "days": [
+            "월",
+            "화",
+            "수",
+            "목",
+            "일",
+            "화목"
+          ],
+          "pay": [
+            "■ 수업료 회당 3"
+          ]
+        },
+        "llm": {
+          "used": false,
+          "reason": [
+            "pay_unknown"
+          ],
+          "model": null,
+          "appliedFields": [],
+          "suggestion": null,
+          "notes": []
+        },
+        "detailFetch": {
+          "ok": true,
+          "error": null
+        }
+      }
+    },
+    {
+      "source": "esangdance",
+      "sourcePostId": "16186",
+      "url": "https://www.esangdance.net/M01/16186?sca=%EB%B0%9C%EB%A0%88&page=2",
+      "collectedAt": "2026-06-12T12:28:18.826Z",
+      "raw": {
+        "title": "신내역 부근 유아발레 강사님 모십니다.",
+        "company": "Min12",
+        "companyType": null,
+        "postedDate": "2026-06-11",
+        "closingDateText": null,
+        "summaryMajorText": "발레",
+        "summaryRegionText": "신내역 부근",
+        "summaryPayText": "유아 대상 발레 수업 가능하신 선생님을 찾고 있습니다.",
+        "detailText": "학원명(지역) ▶ 신내역 부근 \n수업내용 및 시간 ▶ 5시20분-6시10분 \n5세~7세 유아 발레 \n연락처 ▶ 010-8961-8063\n수업료 등 추가내용 ▶ 유아 대상 발레 수업 가능하신 선생님을 찾고 있습니다.",
+        "detailImages": [],
+        "category": "발레",
+        "writer": "Min12",
+        "status": "진행중",
+        "viewCount": 32,
+        "listPage": 2
+      },
+      "classification": {
+        "isBallet": true,
+        "balletConfidence": "high",
+        "dropReason": null,
+        "jobType": "regular",
+        "audiences": [
+          "toddler"
+        ],
+        "subjects": [
+          "ballet"
+        ],
+        "locations": [
+          {
+            "sido": "신내역",
+            "sigungu": "부근",
+            "dongOrStation": "지역",
+            "raw": "신내역 부근"
+          }
+        ],
+        "schedule": {
+          "days": [],
+          "dayRaw": null,
+          "timeSlots": [
+            "morning"
+          ],
+          "times": [
+            {
+              "start": "05:20",
+              "end": "06:10",
+              "raw": "5시20분-6시10"
+            }
+          ],
+          "classCount": null,
+          "durationMinutes": 20,
+          "startDate": null
+        },
+        "pay": {
+          "type": "unknown",
+          "minManwon": null,
+          "maxManwon": null,
+          "amountText": "유아 대상 발레 수업 가능하신 선생님을 찾고 있습니다.",
+          "isNegotiable": false,
+          "deductions": [],
+          "classCountBasis": null
+        },
+        "requirements": {
+          "majorRequired": null,
+          "experienceRequired": null,
+          "certifications": [],
+          "preferred": []
+        },
+        "contact": {
+          "emails": [],
+          "phones": [
+            "010-8961-8063"
+          ],
+          "applyMethods": [
+            "unknown"
+          ]
+        },
+        "dedupe": {
+          "entityKey": "Min12|신내역|부근",
+          "sameCompanyCandidates": []
+        },
+        "evidence": {
+          "audiences": [
+            "유아"
+          ],
+          "subjects": [
+            "발레"
+          ],
+          "days": [
+            "수"
+          ],
+          "pay": [
+            "유아 대상 발레 수업 가능하신 선생님을 찾고 있습니다."
+          ]
+        },
+        "llm": {
+          "used": false,
+          "reason": [
+            "pay_unknown"
+          ],
+          "model": null,
+          "appliedFields": [],
+          "suggestion": null,
+          "notes": []
+        },
+        "detailFetch": {
+          "ok": true,
+          "error": null
+        }
+      }
+    },
+    {
+      "source": "esangdance",
+      "sourcePostId": "16185",
+      "url": "https://www.esangdance.net/M01/16185?sca=%EB%B0%9C%EB%A0%88&page=2",
+      "collectedAt": "2026-06-12T12:28:22.811Z",
+      "raw": {
+        "title": "금.토 키즈발레 강사 채용공고",
+        "company": "발레포러스",
+        "companyType": null,
+        "postedDate": "2026-06-11",
+        "closingDateText": null,
+        "summaryMajorText": "발레",
+        "summaryRegionText": null,
+        "summaryPayText": null,
+        "detailText": "금토 옥수키즈.jpg",
+        "detailImages": [
+          {
+            "src": "https://www.esangdance.net/data/editor/2606/20260611182422_99ba54e97cd5a5f63b81ed4bc0acc3ff_m3nx.jpg",
+            "alt": "금토 옥수키즈.jpg"
+          }
+        ],
+        "category": "발레",
+        "writer": "발레포러스",
+        "status": "진행중",
+        "viewCount": 42,
+        "listPage": 2
+      },
+      "classification": {
+        "isBallet": true,
+        "balletConfidence": "high",
+        "dropReason": null,
+        "jobType": "regular",
+        "audiences": [
+          "unknown"
+        ],
+        "subjects": [
+          "ballet"
+        ],
+        "locations": [
+          {
+            "sido": null,
+            "sigungu": null,
+            "dongOrStation": null,
+            "raw": null
+          }
+        ],
+        "schedule": {
+          "days": [
+            "금",
+            "토"
+          ],
+          "dayRaw": "금,토",
+          "timeSlots": [
+            "unknown"
+          ],
+          "times": [],
+          "classCount": null,
+          "durationMinutes": null,
+          "startDate": null
+        },
+        "pay": {
+          "type": "unknown",
+          "minManwon": null,
+          "maxManwon": null,
+          "amountText": null,
+          "isNegotiable": false,
+          "deductions": [],
+          "classCountBasis": null
+        },
+        "requirements": {
+          "majorRequired": null,
+          "experienceRequired": null,
+          "certifications": [],
+          "preferred": []
+        },
+        "contact": {
+          "emails": [],
+          "phones": [],
+          "applyMethods": [
+            "unknown"
+          ]
+        },
+        "dedupe": {
+          "entityKey": "발레포러스",
+          "sameCompanyCandidates": []
+        },
+        "evidence": {
+          "audiences": [],
+          "subjects": [
+            "발레"
+          ],
+          "days": [
+            "수",
+            "금",
+            "토"
+          ],
+          "pay": []
+        },
+        "llm": {
+          "used": false,
+          "reason": [
+            "audience_unknown",
+            "time_unknown",
+            "pay_unknown"
+          ],
+          "model": null,
+          "appliedFields": [],
+          "suggestion": null,
+          "notes": []
+        },
+        "detailFetch": {
+          "ok": true,
+          "error": null
+        }
+      }
+    },
+    {
+      "source": "esangdance",
+      "sourcePostId": "16183",
+      "url": "https://www.esangdance.net/M01/16183?sca=%EB%B0%9C%EB%A0%88&page=2",
+      "collectedAt": "2026-06-12T12:28:27.069Z",
+      "raw": {
+        "title": "서울 동작구 유아발레 강사님 모셔요~",
+        "company": "채으",
+        "companyType": null,
+        "postedDate": "2026-06-11",
+        "closingDateText": null,
+        "summaryMajorText": "발레",
+        "summaryRegionText": null,
+        "summaryPayText": null,
+        "detailText": "안녕하세요~\n7월부터 화목5:30~6:20 유아반 (6,7세반) 수업 맡아주실 발레전공 선생님 모십니다.\n유아반은 처음 개설 되는거라서 선생님 스타일로 끌어가시면 되셔서 어려움 없이 하실 수 있으실거에요 ~!\n선생님 시간이 가능하시면 월수 5:00~6:00 초등반 수업도 드릴 수 있습니다.\n(화목 4:20-5:20 초등반도 개설 예정이고 추후에 선생님 스케줄에 맞춰서 주말이나 수업 전후로 개인 듀엣 등 다른시간대에도 조율해서 수업 더 드릴수 있어요.)\n경력이 적으셔도 괜찮습니다~\n경력보다는 성실하고 책임감 있는 선생님이셨으면 좋겠습니다!\nkjm35420@naver.com 으로 이력서 보내주시고 01036215855로 문자 주시면 확인 후 연락 드리겠습니다:)",
+        "detailImages": [],
+        "category": "발레",
+        "writer": "채으",
+        "status": "진행중",
+        "viewCount": 89,
+        "listPage": 2
+      },
+      "classification": {
+        "isBallet": true,
+        "balletConfidence": "high",
+        "dropReason": null,
+        "jobType": "regular",
+        "audiences": [
+          "toddler",
+          "elementary"
+        ],
+        "subjects": [
+          "ballet"
+        ],
+        "locations": [
+          {
+            "sido": null,
+            "sigungu": null,
+            "dongOrStation": null,
+            "raw": null
+          }
+        ],
+        "schedule": {
+          "days": [
+            "월",
+            "화",
+            "수",
+            "목"
+          ],
+          "dayRaw": "월,화,수,목",
+          "timeSlots": [
+            "morning"
+          ],
+          "times": [
+            {
+              "start": "05:30",
+              "end": "06:20",
+              "raw": "5:30~6:20"
+            },
+            {
+              "start": "05:00",
+              "end": "06:00",
+              "raw": "5:00~6:00"
+            },
+            {
+              "start": "04:20",
+              "end": "05:20",
+              "raw": "4:20-5:20"
+            }
+          ],
+          "classCount": null,
+          "durationMinutes": null,
+          "startDate": null
+        },
+        "pay": {
+          "type": "unknown",
+          "minManwon": null,
+          "maxManwon": null,
+          "amountText": null,
+          "isNegotiable": false,
+          "deductions": [],
+          "classCountBasis": null
+        },
+        "requirements": {
+          "majorRequired": true,
+          "experienceRequired": null,
+          "certifications": [],
+          "preferred": []
+        },
+        "contact": {
+          "emails": [
+            "kjm35420@naver.com"
+          ],
+          "phones": [
+            "010-3621-5855"
+          ],
+          "applyMethods": [
+            "email",
+            "sms"
+          ]
+        },
+        "dedupe": {
+          "entityKey": "채으",
+          "sameCompanyCandidates": []
+        },
+        "evidence": {
+          "audiences": [
+            "유아",
+            "초등"
+          ],
+          "subjects": [
+            "발레"
+          ],
+          "days": [
+            "월",
+            "화",
+            "수",
+            "목",
+            "일",
+            "화목"
+          ],
+          "pay": []
+        },
+        "llm": {
+          "used": false,
+          "reason": [
+            "pay_unknown"
+          ],
+          "model": null,
+          "appliedFields": [],
+          "suggestion": null,
+          "notes": []
+        },
+        "detailFetch": {
+          "ok": true,
+          "error": null
+        }
+      }
+    },
+    {
+      "source": "esangdance",
+      "sourcePostId": "16182",
+      "url": "https://www.esangdance.net/M01/16182?sca=%EB%B0%9C%EB%A0%88&page=2",
+      "collectedAt": "2026-06-12T12:28:31.469Z",
+      "raw": {
+        "title": "도곡역) 오전/저녁반 성인발레 강사님 모집",
+        "company": "lee00",
+        "companyType": null,
+        "postedDate": "2026-06-11",
+        "closingDateText": null,
+        "summaryMajorText": "발레",
+        "summaryRegionText": null,
+        "summaryPayText": null,
+        "detailText": "강남구 도곡동 타워로열 발레아카데미에서 발레 강사님을 모집합니다. \n가능한 시간대 이메일에 적어주세요. ^^ \n&lt;오전반&gt; \n월 수 금 오전10시~11시 (성인반) \n목 11시10분 ~12시 10분 (성인반) \n&lt;저녁반&gt; \n월 수 19:30~20:30 (성인반) \n페이: 3.5만원~ \n지원방식: 이메일 지원서 (자유형식) \nballet_17@naver.com \n**문의사항은 이메일로 보내주세요. 이력서 보고 연락드리겠습니다.",
+        "detailImages": [],
+        "category": "발레",
+        "writer": "lee00",
+        "status": "진행중",
+        "viewCount": 63,
+        "listPage": 2
+      },
+      "classification": {
+        "isBallet": true,
+        "balletConfidence": "high",
+        "dropReason": null,
+        "jobType": "regular",
+        "audiences": [
+          "adult"
+        ],
+        "subjects": [
+          "ballet"
+        ],
+        "locations": [
+          {
+            "sido": null,
+            "sigungu": null,
+            "dongOrStation": "도곡동",
+            "raw": null
+          }
+        ],
+        "schedule": {
+          "days": [
+            "월",
+            "수",
+            "목",
+            "금"
+          ],
+          "dayRaw": "월,수,목,금",
+          "timeSlots": [
+            "morning",
+            "evening",
+            "negotiable"
+          ],
+          "times": [
+            {
+              "start": "10:00",
+              "end": "11:00",
+              "raw": "10시~11시"
+            },
+            {
+              "start": "11:10",
+              "end": "12:10",
+              "raw": "11시10분 ~12시 10"
+            },
+            {
+              "start": "19:30",
+              "end": "20:30",
+              "raw": "19:30~20:30"
+            }
+          ],
+          "classCount": null,
+          "durationMinutes": 10,
+          "startDate": null
+        },
+        "pay": {
+          "type": "hourly",
+          "minManwon": 3.5,
+          "maxManwon": 3.5,
+          "amountText": "페이: 3",
+          "isNegotiable": true,
+          "deductions": [],
+          "classCountBasis": null
+        },
+        "requirements": {
+          "majorRequired": null,
+          "experienceRequired": null,
+          "certifications": [],
+          "preferred": []
+        },
+        "contact": {
+          "emails": [
+            "ballet_17@naver.com"
+          ],
+          "phones": [],
+          "applyMethods": [
+            "email"
+          ]
+        },
+        "dedupe": {
+          "entityKey": "lee00",
+          "sameCompanyCandidates": []
+        },
+        "evidence": {
+          "audiences": [
+            "성인"
+          ],
+          "subjects": [
+            "발레"
+          ],
+          "days": [
+            "월",
+            "수",
+            "목",
+            "금",
+            "일"
+          ],
+          "pay": [
+            "페이: 3",
+            "페이",
+            "만원"
+          ]
+        },
+        "llm": {
+          "used": false,
+          "reason": [],
+          "model": null,
+          "appliedFields": [],
+          "suggestion": null,
+          "notes": []
+        },
+        "detailFetch": {
+          "ok": true,
+          "error": null
+        }
+      }
+    },
+    {
+      "source": "esangdance",
+      "sourcePostId": "16181",
+      "url": "https://www.esangdance.net/M01/16181?sca=%EB%B0%9C%EB%A0%88&page=2",
+      "collectedAt": "2026-06-12T12:28:35.926Z",
+      "raw": {
+        "title": "6/17 상동 유아발레 대강",
+        "company": "슈꾸딩",
+        "companyType": null,
+        "postedDate": "2026-06-11",
+        "closingDateText": null,
+        "summaryMajorText": "발레",
+        "summaryRegionText": "부천 상동",
+        "summaryPayText": "30000원 문자로 이력서 간단하게 보내주세용",
+        "detailText": "학원명(지역) ▶ 부천 상동\n수업내용 및 시간 ▶ 유아발레 3:00-3:30\n연락처 ▶ 010-9427-1621\n수업료 등 추가내용 ▶ 30000원\n문자로 이력서 간단하게 보내주세용",
+        "detailImages": [],
+        "category": "발레",
+        "writer": "슈꾸딩",
+        "status": "진행중",
+        "viewCount": 64,
+        "listPage": 2
+      },
+      "classification": {
+        "isBallet": true,
+        "balletConfidence": "high",
+        "dropReason": null,
+        "jobType": "substitute",
+        "audiences": [
+          "toddler"
+        ],
+        "subjects": [
+          "ballet"
+        ],
+        "locations": [
+          {
+            "sido": "부천",
+            "sigungu": "상동",
+            "dongOrStation": "지역",
+            "raw": "부천 상동"
+          }
+        ],
+        "schedule": {
+          "days": [],
+          "dayRaw": null,
+          "timeSlots": [
+            "morning"
+          ],
+          "times": [
+            {
+              "start": "03:00",
+              "end": "03:30",
+              "raw": "3:00-3:30"
+            }
+          ],
+          "classCount": null,
+          "durationMinutes": null,
+          "startDate": null
+        },
+        "pay": {
+          "type": "unknown",
+          "minManwon": null,
+          "maxManwon": null,
+          "amountText": "30000원 문자로 이력서 간단하게 보내주세용",
+          "isNegotiable": false,
+          "deductions": [],
+          "classCountBasis": null
+        },
+        "requirements": {
+          "majorRequired": null,
+          "experienceRequired": null,
+          "certifications": [],
+          "preferred": []
+        },
+        "contact": {
+          "emails": [],
+          "phones": [
+            "010-9427-1621"
+          ],
+          "applyMethods": [
+            "sms"
+          ]
+        },
+        "dedupe": {
+          "entityKey": "슈꾸딩|부천|상동",
+          "sameCompanyCandidates": []
+        },
+        "evidence": {
+          "audiences": [
+            "유아"
+          ],
+          "subjects": [
+            "발레"
+          ],
+          "days": [
+            "수"
+          ],
+          "pay": [
+            "30000원 문자로 이력서 간단하게 보내주세용"
+          ]
+        },
+        "llm": {
+          "used": false,
+          "reason": [
+            "pay_unknown"
+          ],
+          "model": null,
+          "appliedFields": [],
+          "suggestion": null,
+          "notes": []
+        },
+        "detailFetch": {
+          "ok": true,
+          "error": null
+        }
+      }
+    },
+    {
+      "source": "esangdance",
+      "sourcePostId": "16180",
+      "url": "https://www.esangdance.net/M01/16180?sca=%EB%B0%9C%EB%A0%88&page=2",
+      "collectedAt": "2026-06-12T12:28:40.431Z",
+      "raw": {
+        "title": "부산 해운대 3주 방학특강 발레 부전공",
+        "company": "골든캣츠",
+        "companyType": null,
+        "postedDate": "2026-06-11",
+        "closingDateText": null,
+        "summaryMajorText": "발레",
+        "summaryRegionText": "골든캣츠한국무용학원",
+        "summaryPayText": "협의 60분 기준 경력별 상이",
+        "detailText": "학원명(지역) ▶ 골든캣츠한국무용학원\n수업내용 및 시간 ▶ 주4회 오전 9시30분-2시 1일 최소 4타임/7월25일 토요일부터 8월14일까지 진행\n연락처 ▶ 010 5097 1773\n수업료 등 추가내용 ▶ 협의 60분 기준 경력별 상이",
+        "detailImages": [],
+        "category": "발레",
+        "writer": "골든캣츠",
+        "status": "진행중",
+        "viewCount": 45,
+        "listPage": 2
+      },
+      "classification": {
+        "isBallet": true,
+        "balletConfidence": "high",
+        "dropReason": null,
+        "jobType": "one_time",
+        "audiences": [
+          "unknown"
+        ],
+        "subjects": [
+          "ballet",
+          "korean_dance"
+        ],
+        "locations": [
+          {
+            "sido": "골든캣츠한국무용학원",
+            "sigungu": null,
+            "dongOrStation": "지역",
+            "raw": "골든캣츠한국무용학원"
+          }
+        ],
+        "schedule": {
+          "days": [
+            "토"
+          ],
+          "dayRaw": "토",
+          "timeSlots": [
+            "morning",
+            "negotiable"
+          ],
+          "times": [
+            {
+              "start": "09:30",
+              "end": "02:00",
+              "raw": "9시30분-2시"
+            }
+          ],
+          "classCount": 4,
+          "durationMinutes": 60,
+          "startDate": null
+        },
+        "pay": {
+          "type": "negotiable",
+          "minManwon": null,
+          "maxManwon": null,
+          "amountText": "협의 60분 기준 경력별 상이",
+          "isNegotiable": true,
+          "deductions": [],
+          "classCountBasis": null
+        },
+        "requirements": {
+          "majorRequired": null,
+          "experienceRequired": null,
+          "certifications": [],
+          "preferred": []
+        },
+        "contact": {
+          "emails": [],
+          "phones": [
+            "010-5097-1773"
+          ],
+          "applyMethods": [
+            "unknown"
+          ]
+        },
+        "dedupe": {
+          "entityKey": "골든캣츠|골든캣츠한국무용학원",
+          "sameCompanyCandidates": []
+        },
+        "evidence": {
+          "audiences": [],
+          "subjects": [
+            "발레",
+            "한국무용"
+          ],
+          "days": [
+            "월",
+            "수",
+            "토",
+            "일"
+          ],
+          "pay": [
+            "협의 60분 기준 경력별 상이",
+            "협의"
+          ]
+        },
+        "llm": {
+          "used": false,
+          "reason": [
+            "audience_unknown"
+          ],
+          "model": null,
+          "appliedFields": [],
+          "suggestion": null,
+          "notes": []
+        },
+        "detailFetch": {
+          "ok": true,
+          "error": null
+        }
+      }
+    },
+    {
+      "source": "esangdance",
+      "sourcePostId": "16179",
+      "url": "https://www.esangdance.net/M01/16179?sca=%EB%B0%9C%EB%A0%88&page=3",
+      "collectedAt": "2026-06-12T12:28:43.001Z",
+      "raw": {
+        "title": "경산 강사님 구인합니다",
+        "company": "예Z",
+        "companyType": null,
+        "postedDate": "2026-06-11",
+        "closingDateText": null,
+        "summaryMajorText": "발레",
+        "summaryRegionText": "비브발레학원",
+        "summaryPayText": "",
+        "detailText": "학원명(지역) ▶ 비브발레학원\n수업내용 및 시간 ▶ 수요일 초등발레 4시\n수요일 유아발레 5시\n연락처 ▶ 01082380060\n수업료 등 추가내용 ▶",
+        "detailImages": [],
+        "category": "발레",
+        "writer": "예Z",
+        "status": "진행중",
+        "viewCount": 23,
+        "listPage": 3
+      },
+      "classification": {
+        "isBallet": true,
+        "balletConfidence": "high",
+        "dropReason": null,
+        "jobType": "regular",
+        "audiences": [
+          "toddler",
+          "elementary"
+        ],
+        "subjects": [
+          "ballet"
+        ],
+        "locations": [
+          {
+            "sido": "비브발레학원",
+            "sigungu": null,
+            "dongOrStation": "지역",
+            "raw": "비브발레학원"
+          }
+        ],
+        "schedule": {
+          "days": [
+            "수"
+          ],
+          "dayRaw": "수",
+          "timeSlots": [
+            "unknown"
+          ],
+          "times": [],
+          "classCount": null,
+          "durationMinutes": null,
+          "startDate": null
+        },
+        "pay": {
+          "type": "unknown",
+          "minManwon": null,
+          "maxManwon": null,
+          "amountText": "수업료 등 추가내용 ▶",
+          "isNegotiable": false,
+          "deductions": [],
+          "classCountBasis": null
+        },
+        "requirements": {
+          "majorRequired": null,
+          "experienceRequired": null,
+          "certifications": [],
+          "preferred": []
+        },
+        "contact": {
+          "emails": [],
+          "phones": [
+            "010-8238-0060"
+          ],
+          "applyMethods": [
+            "unknown"
+          ]
+        },
+        "dedupe": {
+          "entityKey": "예Z|비브발레학원",
+          "sameCompanyCandidates": []
+        },
+        "evidence": {
+          "audiences": [
+            "유아",
+            "초등"
+          ],
+          "subjects": [
+            "발레"
+          ],
+          "days": [
+            "수",
+            "일"
+          ],
+          "pay": [
+            "수업료 등 추가내용 ▶"
+          ]
+        },
+        "llm": {
+          "used": false,
+          "reason": [
+            "time_unknown",
+            "pay_unknown"
+          ],
+          "model": null,
+          "appliedFields": [],
+          "suggestion": null,
+          "notes": []
+        },
+        "detailFetch": {
+          "ok": true,
+          "error": null
+        }
+      }
+    },
+    {
+      "source": "esangdance",
+      "sourcePostId": "16178",
+      "url": "https://www.esangdance.net/M01/16178?sca=%EB%B0%9C%EB%A0%88&page=3",
+      "collectedAt": "2026-06-12T12:28:47.464Z",
+      "raw": {
+        "title": "부산 발레강사님을 모십니다(현대무용전공자도 가능)",
+        "company": "밀크사랑",
+        "companyType": null,
+        "postedDate": "2026-06-11",
+        "closingDateText": null,
+        "summaryMajorText": "발레",
+        "summaryRegionText": "부산 강서구",
+        "summaryPayText": "유아발레와 초등발레수업을 같이 해주실분을 모십니다. 재학생도 가능하시고 졸업자분도 가능하시고 현대무용이나 한국무용전공자분도 가능하세요. 많은지원부탁드립니다. 문자로 연락주시면 감사하겠습니다.",
+        "detailText": "학원명(지역) ▶ 부산 강서구\n수업내용 및 시간 ▶ \n연락처 ▶ 010 7110 4670 \n수업료 등 추가내용 ▶ \n유아발레와 초등발레수업을 \n같이 해주실분을 모십니다.\n재학생도 가능하시고 졸업자분도 가능하시고\n현대무용이나 한국무용전공자분도 가능하세요.\n많은지원부탁드립니다.\n문자로 연락주시면 감사하겠습니다.",
+        "detailImages": [],
+        "category": "발레",
+        "writer": "밀크사랑",
+        "status": "진행중",
+        "viewCount": 30,
+        "listPage": 3
+      },
+      "classification": {
+        "isBallet": true,
+        "balletConfidence": "high",
+        "dropReason": null,
+        "jobType": "regular",
+        "audiences": [
+          "toddler",
+          "elementary"
+        ],
+        "subjects": [
+          "ballet",
+          "modern_dance",
+          "korean_dance"
+        ],
+        "locations": [
+          {
+            "sido": "부산",
+            "sigungu": "강서구",
+            "dongOrStation": "지역",
+            "raw": "부산 강서구"
+          }
+        ],
+        "schedule": {
+          "days": [],
+          "dayRaw": null,
+          "timeSlots": [
+            "unknown"
+          ],
+          "times": [],
+          "classCount": null,
+          "durationMinutes": null,
+          "startDate": null
+        },
+        "pay": {
+          "type": "unknown",
+          "minManwon": null,
+          "maxManwon": null,
+          "amountText": "유아발레와 초등발레수업을 같이 해주실분을 모십니다. 재학생도 가능하시고 졸업자분도 가능하시고 현대무용이나 한국무용전공자분도 가능하세요. 많은지원부탁드립니다. 문자로 연락주시면 감사하겠습니다.",
+          "isNegotiable": false,
+          "deductions": [],
+          "classCountBasis": null
+        },
+        "requirements": {
+          "majorRequired": null,
+          "experienceRequired": null,
+          "certifications": [],
+          "preferred": []
+        },
+        "contact": {
+          "emails": [],
+          "phones": [
+            "010-7110-4670"
+          ],
+          "applyMethods": [
+            "sms"
+          ]
+        },
+        "dedupe": {
+          "entityKey": "밀크사랑|부산|강서구",
+          "sameCompanyCandidates": []
+        },
+        "evidence": {
+          "audiences": [
+            "유아",
+            "초등"
+          ],
+          "subjects": [
+            "발레",
+            "현대무용",
+            "한국무용"
+          ],
+          "days": [
+            "수"
+          ],
+          "pay": [
+            "유아발레와 초등발레수업을 같이 해주실분을 모십니다. 재학생도 가능하시고 졸업자분도 가능하시고 현대무용이나 한국무용전공자분도 가능하세요. 많은지원부탁드립니다. 문자로 연락주시면 감사하겠습니다."
+          ]
+        },
+        "llm": {
+          "used": false,
+          "reason": [
+            "time_unknown",
+            "pay_unknown"
+          ],
+          "model": null,
+          "appliedFields": [],
+          "suggestion": null,
+          "notes": []
+        },
+        "detailFetch": {
+          "ok": true,
+          "error": null
+        }
+      }
+    },
+    {
+      "source": "esangdance",
+      "sourcePostId": "16177",
+      "url": "https://www.esangdance.net/M01/16177?sca=%EB%B0%9C%EB%A0%88&page=3",
+      "collectedAt": "2026-06-12T12:28:51.649Z",
+      "raw": {
+        "title": "시흥 르베무용학원에서 발레강사를 구합니다.",
+        "company": "행복한댄서",
+        "companyType": null,
+        "postedDate": "2026-06-11",
+        "closingDateText": null,
+        "summaryMajorText": "발레",
+        "summaryRegionText": "시흥르베무용학원",
+        "summaryPayText": "현대무용전공자 아이들 수업을 맡아주실 발레선생님을 모십니다. •수업경력이 있으신 분들만 지원바랍니다. •바가노바 메소드 이수자 우대 •기본기를 꼼꼼하게 잡아주실 분을 모십니다. 지원방법: 문자지원 , 이메일 지원 ( parkjh9913@hanmail.net )",
+        "detailText": "학원명(지역) ▶ 시흥르베무용학원\n수업내용 및 시간 ▶ 화,목 7:00-9:00 ,개인레슨\n연락처 ▶ 010-5545-6454\n수업료 등 추가내용 ▶ 현대무용전공자 아이들 수업을 맡아주실 발레선생님을 모십니다. \n•수업경력이 있으신 분들만 지원바랍니다. \n•바가노바 메소드 이수자 우대\n•기본기를 꼼꼼하게 잡아주실 분을 모십니다. \n지원방법: 문자지원 , 이메일 지원 ( parkjh9913@hanmail.net )",
+        "detailImages": [],
+        "category": "발레",
+        "writer": "행복한댄서",
+        "status": "진행중",
+        "viewCount": 46,
+        "listPage": 3
+      },
+      "classification": {
+        "isBallet": true,
+        "balletConfidence": "high",
+        "dropReason": null,
+        "jobType": "regular",
+        "audiences": [
+          "unknown"
+        ],
+        "subjects": [
+          "ballet",
+          "modern_dance"
+        ],
+        "locations": [
+          {
+            "sido": "시흥르베무용학원",
+            "sigungu": null,
+            "dongOrStation": "지역",
+            "raw": "시흥르베무용학원"
+          }
+        ],
+        "schedule": {
+          "days": [
+            "화",
+            "목"
+          ],
+          "dayRaw": "화,목",
+          "timeSlots": [
+            "morning"
+          ],
+          "times": [
+            {
+              "start": "07:00",
+              "end": "09:00",
+              "raw": "7:00-9:00"
+            }
+          ],
+          "classCount": null,
+          "durationMinutes": null,
+          "startDate": null
+        },
+        "pay": {
+          "type": "unknown",
+          "minManwon": null,
+          "maxManwon": null,
+          "amountText": "현대무용전공자 아이들 수업을 맡아주실 발레선생님을 모십니다. •수업경력이 있으신 분들만 지원바랍니다. •바가노바 메소드 이수자 우대 •기본기를 꼼꼼하게 잡아주실 분을 모십니다. 지원방법: 문자지원 , 이메일 지원 ( parkjh9913@hanmail.net )",
+          "isNegotiable": false,
+          "deductions": [],
+          "classCountBasis": null
+        },
+        "requirements": {
+          "majorRequired": null,
+          "experienceRequired": null,
+          "certifications": [],
+          "preferred": []
+        },
+        "contact": {
+          "emails": [
+            "parkjh9913@hanmail.net"
+          ],
+          "phones": [
+            "010-5545-6454"
+          ],
+          "applyMethods": [
+            "email",
+            "sms"
+          ]
+        },
+        "dedupe": {
+          "entityKey": "행복한댄서|시흥르베무용학원",
+          "sameCompanyCandidates": []
+        },
+        "evidence": {
+          "audiences": [],
+          "subjects": [
+            "발레",
+            "현대무용"
+          ],
+          "days": [
+            "화",
+            "수",
+            "목",
+            "일"
+          ],
+          "pay": [
+            "현대무용전공자 아이들 수업을 맡아주실 발레선생님을 모십니다. •수업경력이 있으신 분들만 지원바랍니다. •바가노바 메소드 이수자 우대 •기본기를 꼼꼼하게 잡아주실 분을 모십니다. 지원방법: 문자지원 , 이메일 지원 ( parkjh9913@hanmail.net )"
+          ]
+        },
+        "llm": {
+          "used": false,
+          "reason": [
+            "audience_unknown",
+            "pay_unknown"
+          ],
+          "model": null,
+          "appliedFields": [],
+          "suggestion": null,
+          "notes": []
+        },
+        "detailFetch": {
+          "ok": true,
+          "error": null
+        }
+      }
+    },
+    {
+      "source": "esangdance",
+      "sourcePostId": "16175",
+      "url": "https://www.esangdance.net/M01/16175?sca=%EB%B0%9C%EB%A0%88&page=3",
+      "collectedAt": "2026-06-12T12:28:56.439Z",
+      "raw": {
+        "title": "6/12(금) 8시 성인기초 급구",
+        "company": "햅니",
+        "companyType": null,
+        "postedDate": "2026-06-11",
+        "closingDateText": null,
+        "summaryMajorText": "발레",
+        "summaryRegionText": "KBEC발레아카데미",
+        "summaryPayText": "페이 3.5",
+        "detailText": "학원명(지역) ▶ KBEC발레아카데미\n수업내용 및 시간 ▶ 6/12 금요일 \n오후 8-9시 성인기초\n연락처 ▶ 010.2644.7002\n수업료 등 추가내용 ▶ \n페이\n3.5",
+        "detailImages": [],
+        "category": "발레",
+        "writer": "햅니",
+        "status": "진행중",
+        "viewCount": 76,
+        "listPage": 3
+      },
+      "classification": {
+        "isBallet": true,
+        "balletConfidence": "high",
+        "dropReason": null,
+        "jobType": "regular",
+        "audiences": [
+          "adult"
+        ],
+        "subjects": [
+          "ballet"
+        ],
+        "locations": [
+          {
+            "sido": "KBEC발레아카데미",
+            "sigungu": null,
+            "dongOrStation": "지역",
+            "raw": "KBEC발레아카데미"
+          }
+        ],
+        "schedule": {
+          "days": [
+            "금"
+          ],
+          "dayRaw": "금",
+          "timeSlots": [
+            "afternoon"
+          ],
+          "times": [],
+          "classCount": null,
+          "durationMinutes": null,
+          "startDate": null
+        },
+        "pay": {
+          "type": "unknown",
+          "minManwon": null,
+          "maxManwon": null,
+          "amountText": "페이 3.5",
+          "isNegotiable": false,
+          "deductions": [],
+          "classCountBasis": null
+        },
+        "requirements": {
+          "majorRequired": null,
+          "experienceRequired": null,
+          "certifications": [],
+          "preferred": []
+        },
+        "contact": {
+          "emails": [],
+          "phones": [
+            "010-2644-7002"
+          ],
+          "applyMethods": [
+            "unknown"
+          ]
+        },
+        "dedupe": {
+          "entityKey": "햅니|KBEC발레아카데미",
+          "sameCompanyCandidates": []
+        },
+        "evidence": {
+          "audiences": [
+            "성인"
+          ],
+          "subjects": [
+            "발레"
+          ],
+          "days": [
+            "수",
+            "금",
+            "일"
+          ],
+          "pay": [
+            "페이 3.5",
+            "페이"
+          ]
+        },
+        "llm": {
+          "used": false,
+          "reason": [
+            "pay_unknown"
+          ],
+          "model": null,
+          "appliedFields": [],
+          "suggestion": null,
+          "notes": []
+        },
+        "detailFetch": {
+          "ok": true,
+          "error": null
+        }
+      }
+    },
+    {
+      "source": "esangdance",
+      "sourcePostId": "16173",
+      "url": "https://www.esangdance.net/M01/16173?sca=%EB%B0%9C%EB%A0%88&page=3",
+      "collectedAt": "2026-06-12T12:29:01.590Z",
+      "raw": {
+        "title": "분당 수,금 유아 초등 강사님 구합니다",
+        "company": "복실복실이",
+        "companyType": null,
+        "postedDate": "2026-06-11",
+        "closingDateText": null,
+        "summaryMajorText": "발레",
+        "summaryRegionText": "분당",
+        "summaryPayText": "페이는 35000원이고 7월부터 가능하신 강사님 구합니다-!! 구체적인 장소 및 궁금하신 점 문자 주시면 알려드리겠습니다:)",
+        "detailText": "학원명(지역) ▶ 분당\n수업내용 및 시간 ▶ \n수, 금\n15:10-16:00 초등부\n16:10-16:55 유아부\n연락처 ▶ 01036460837\n수업료 등 추가내용 ▶ \n페이는 35000원이고\n7월부터 가능하신 강사님 구합니다-!!\n구체적인 장소 및 궁금하신 점\n문자 주시면 알려드리겠습니다:)",
+        "detailImages": [],
+        "category": "발레",
+        "writer": "복실복실이",
+        "status": "진행중",
+        "viewCount": 45,
+        "listPage": 3
+      },
+      "classification": {
+        "isBallet": true,
+        "balletConfidence": "high",
+        "dropReason": null,
+        "jobType": "regular",
+        "audiences": [
+          "toddler",
+          "elementary"
+        ],
+        "subjects": [
+          "ballet"
+        ],
+        "locations": [
+          {
+            "sido": "분당",
+            "sigungu": null,
+            "dongOrStation": "지역",
+            "raw": "분당"
+          }
+        ],
+        "schedule": {
+          "days": [
+            "수",
+            "금"
+          ],
+          "dayRaw": "수,금",
+          "timeSlots": [
+            "afternoon"
+          ],
+          "times": [
+            {
+              "start": "15:10",
+              "end": "16:00",
+              "raw": "15:10-16:00"
+            },
+            {
+              "start": "16:10",
+              "end": "16:55",
+              "raw": "16:10-16:55"
+            }
+          ],
+          "classCount": null,
+          "durationMinutes": null,
+          "startDate": null
+        },
+        "pay": {
+          "type": "unknown",
+          "minManwon": null,
+          "maxManwon": null,
+          "amountText": "페이는 35000원이고 7월부터 가능하신 강사님 구합니다-!! 구체적인 장소 및 궁금하신 점 문자 주시면 알려드리겠습니다:)",
+          "isNegotiable": false,
+          "deductions": [],
+          "classCountBasis": null
+        },
+        "requirements": {
+          "majorRequired": null,
+          "experienceRequired": null,
+          "certifications": [],
+          "preferred": []
+        },
+        "contact": {
+          "emails": [],
+          "phones": [
+            "010-3646-0837"
+          ],
+          "applyMethods": [
+            "sms"
+          ]
+        },
+        "dedupe": {
+          "entityKey": "복실복실이|분당",
+          "sameCompanyCandidates": []
+        },
+        "evidence": {
+          "audiences": [
+            "유아",
+            "초등"
+          ],
+          "subjects": [
+            "발레"
+          ],
+          "days": [
+            "월",
+            "수",
+            "금"
+          ],
+          "pay": [
+            "페이는 35000원이고 7월부터 가능하신 강사님 구합니다-!! 구체적인 장소 및 궁금하신 점 문자 주시면 알려드리겠습니다:)",
+            "페이"
+          ]
+        },
+        "llm": {
+          "used": false,
+          "reason": [
+            "pay_unknown"
+          ],
+          "model": null,
+          "appliedFields": [],
+          "suggestion": null,
+          "notes": []
+        },
+        "detailFetch": {
+          "ok": true,
+          "error": null
+        }
+      }
+    },
+    {
+      "source": "esangdance",
+      "sourcePostId": "16171",
+      "url": "https://www.esangdance.net/M01/16171?sca=%EB%B0%9C%EB%A0%88&page=3",
+      "collectedAt": "2026-06-12T12:29:07.519Z",
+      "raw": {
+        "title": "수원 광교중앙역 근방 화/목 성인발레 강사 구인",
+        "company": "연두핑",
+        "companyType": null,
+        "postedDate": "2026-06-11",
+        "closingDateText": null,
+        "summaryMajorText": "발레",
+        "summaryRegionText": "수원 광교중앙역 도보5분 발레 학원",
+        "summaryPayText": "발레 전공자 / 성인 발레 티칭 경험자 우대 타임당 35,000원 이력서(자유형식) : tmddl84@naver.com (티엠디디엘) 메일로 이력서 보내주시고 문자 주시면 빠른 확인 가능합니다.",
+        "detailText": "학원명(지역) ▶ \n수원 광교중앙역 도보5분 발레 학원 \n수업내용 및 시간 ▶ \n성인 대상 / 화.목 6:30 ~ 9:45 (60분/4타임) \n*화/목 중 하루만 가능하신 분들도 지원 가능\n*추후 수업 증설 시 추가 배정 가능 \n연락처 ▶ 010.2074.8955 \n수업료 등 추가내용 ▶ \n발레 전공자 / 성인 발레 티칭 경험자 우대 \n타임당 35,000원\n이력서(자유형식) : tmddl84@naver.com (티엠디디엘) 메일로 이력서 보내주시고 문자 주시면 빠른 확인 가능합니다.",
+        "detailImages": [],
+        "category": "발레",
+        "writer": "연두핑",
+        "status": "진행중",
+        "viewCount": 42,
+        "listPage": 3
+      },
+      "classification": {
+        "isBallet": true,
+        "balletConfidence": "high",
+        "dropReason": null,
+        "jobType": "regular",
+        "audiences": [
+          "adult"
+        ],
+        "subjects": [
+          "ballet"
+        ],
+        "locations": [
+          {
+            "sido": "수원",
+            "sigungu": "광교중앙역 도보5분 발레 학원",
+            "dongOrStation": "지역",
+            "raw": "수원 광교중앙역 도보5분 발레 학원"
+          }
+        ],
+        "schedule": {
+          "days": [
+            "화",
+            "목"
+          ],
+          "dayRaw": "화,목",
+          "timeSlots": [
+            "morning"
+          ],
+          "times": [
+            {
+              "start": "06:30",
+              "end": "09:45",
+              "raw": "6:30 ~ 9:45"
+            }
+          ],
+          "classCount": 4,
+          "durationMinutes": 5,
+          "startDate": null
+        },
+        "pay": {
+          "type": "unknown",
+          "minManwon": null,
+          "maxManwon": null,
+          "amountText": "발레 전공자 / 성인 발레 티칭 경험자 우대 타임당 35,000원 이력서(자유형식) : tmddl84@naver.com (티엠디디엘) 메일로 이력서 보내주시고 문자 주시면 빠른 확인 가능합니다.",
+          "isNegotiable": false,
+          "deductions": [],
+          "classCountBasis": null
+        },
+        "requirements": {
+          "majorRequired": true,
+          "experienceRequired": null,
+          "certifications": [],
+          "preferred": [
+            "티칭 경험"
+          ]
+        },
+        "contact": {
+          "emails": [
+            "tmddl84@naver.com"
+          ],
+          "phones": [
+            "010-2074-8955"
+          ],
+          "applyMethods": [
+            "email",
+            "sms"
+          ]
+        },
+        "dedupe": {
+          "entityKey": "연두핑|수원|광교중앙역 도보5분 발레 학원",
+          "sameCompanyCandidates": []
+        },
+        "evidence": {
+          "audiences": [
+            "성인"
+          ],
+          "subjects": [
+            "발레"
+          ],
+          "days": [
+            "화",
+            "수",
+            "목",
+            "일"
+          ],
+          "pay": [
+            "발레 전공자 / 성인 발레 티칭 경험자 우대 타임당 35,000원 이력서(자유형식) : tmddl84@naver.com (티엠디디엘) 메일로 이력서 보내주시고 문자 주시면 빠른 확인 가능합니다."
+          ]
+        },
+        "llm": {
+          "used": false,
+          "reason": [
+            "pay_unknown"
+          ],
+          "model": null,
+          "appliedFields": [],
+          "suggestion": null,
+          "notes": []
+        },
+        "detailFetch": {
+          "ok": true,
+          "error": null
+        }
+      }
+    }
+  ]
+}
